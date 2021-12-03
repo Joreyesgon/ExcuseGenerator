@@ -10,10 +10,10 @@ let generateExcuse = () => {
     let what = ["my homework","the keys","the car"];
     let when = ["before the class.","right on time.","when I finished.","during the lunch.","during I was praying."];
 
-    let whoIndx = Math.floor(Math.random() * who.length);
-    let actionIndx = Math.floor(Math.random() * action.length);
-    let whatIndx = Math.floor(Math.random() * what.length);
-    let whenIndx = Math.floor(Math.random() * when.length);
+    let whoIndex = Math.floor(Math.random() * who.length);
+    let actionIndex = Math.floor(Math.random() * action.length);
+    let whatIndex = Math.floor(Math.random() * what.length);
+    let whenIndex = Math.floor(Math.random() * when.length);
 
-    return who[whoIndx] + " " + action[actionIndx] + " " + what[whatIndx] + " " + when[whenIndx];
+    return who[whoIndex] + " " + action[actionIndex] + " " + what[whatIndex] + " " + when[whenIndex];
 };
