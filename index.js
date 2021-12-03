@@ -1,6 +1,6 @@
 
 window.onload = () => {
-    document.querySelector("#the-excuse").innerHTML = generateExcuse();
+    document.querySelector("#excuse").innerHTML = generateExcuse();
     console.log("OMG! you will not believe me but...");
 };
 
