@@ -1,10 +1,10 @@
+
 window.onload = () => {
     document.querySelector("#the-excuse").innerHTML = generateExcuse();
     console.log("OMG! you will not believe me but...");
 };
 
 let generateExcuse = () => {
-
     let who = ["The dog","My grandma","His turtle","My bird"];
     let action = ["ate","peed","crushed","broke"];
     let what = ["my homework","the keys","the car"];
@@ -16,5 +16,4 @@ let generateExcuse = () => {
     let whenIndx = Math.floor(Math.random() * when.length);
 
     return who[whoIndx] + " " + action[actionIndx] + " " + what[whatIndx] + " " + when[whenIndx];
-
 };
